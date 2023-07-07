@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 100px 0;
+
+    /*добавить цвет фона страницы*/
+    background: antiquewhite;
+}
+
+h3 {
+    margin: 10px 0;
+
+    /*Убрать границу, добавить размер и толщину тексту*/
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+
+    /*Добавить цвет фону*/
+    background: white;
+    border: 10px solid white;
+}
+
+.header{
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-right: 10px;
+
+    /*добавить картинку и изменить размер и цвет шрифта*/
+    font-size: 30px;
+    color: #0d0c0c;
+    background: url(https://images.unsplash.com/photo-1634159779963-4fafda643dac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFyaW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60)
+    no-repeat center center / cover; /*добавить ссылку на изображение*/
+}
+
+/*
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+*/
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+
+    background: url(https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/10/a6/43/10a643c1-19c7-f0bb-c966-4c24a2f52d84/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png)
+    no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    margin: 10px 0;
+
+    /* Добавить цвет фону (background) */
+    background: rgb(219, 213, 213);
+}
+
+.nav li a {
+    /* transition: background .3s ease; */
+    padding: 20px;
+    display: flex;
+    
+    /* Убрать границу, убрать подчеркивание, изменить цвет текста */
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+}
+
+/* .nav li a:hover {
+    background: rgb(185, 175, 175);
+} */
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+
+    /*убрать границу и добавить цвет фону*/
+    background: rgb(219, 213, 213);
+}
+
+.skills li {
+    padding: 10px 0;
+    /* transition: transform .5s ease;
+    cursor: pointer; */
+}
+
+/* .skills li:hover {
+    transform: translateX(10px);
+} */
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 20px;
+}
